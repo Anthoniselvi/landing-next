@@ -2,13 +2,30 @@
     width: 100vw;
     height: 100vh;
     background-color: #dfe9f4;
-    padding: 100px;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
+.singlebox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .innerbox{
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:50px;
+}
+.heading{
+    font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.text{
+    font-family: 'Public Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-right: 70%;
 }

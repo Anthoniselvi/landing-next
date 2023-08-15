@@ -7,14 +7,28 @@
     padding: 100px;
     display: flex;
     flex-direction: column;
-    gap:200px;
+    gap:180px;
+}
+.heading{
+    padding-right: 75%;
+    color: #fff;
 }
 .innerbox{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    gap: 50px;
+    
 
 }
+.singlebox{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
 .text{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;  
     color: #fff;
+    padding-right: 40%;
 }
