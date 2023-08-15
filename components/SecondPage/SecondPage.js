@@ -4,7 +4,8 @@ import Image from "next/image";
 const SecondPage = () => {
   return (
     <div className={styles.container}>
-      <Image
+      <div className={styles.leftbox}></div>
+      {/* <Image
         src="/image/2.png"
         style={{
           width: "100%",
@@ -13,10 +14,10 @@ const SecondPage = () => {
         width={400}
         height={400}
         alt="production-img"
-      />
+      /> */}
       <div className={styles.rightbox}>
-        <h2>Your Business Intelligence Solution</h2>
-        <p>
+        <h2 className={styles.heading}>YOUR BUSINESS INTELLIGENCE SOLUTION</h2>
+        <p className={styles.text}>
           Are you drowning in a sea of Excel spreadsheets, trying to make sense
           of your business data? Wish you could unlock valuable insights and
           drive your business forward with confidence? Look no further!
