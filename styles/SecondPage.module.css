@@ -1,0 +1,16 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
