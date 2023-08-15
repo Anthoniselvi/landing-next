@@ -53,3 +53,34 @@
   right:0;  
     padding-right: 10%;
 }
+@media (max-width: 1200px) {
+    .container{
+        height: 100%;
+    }
+    .innerbox{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .singlebox{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .imageContainer{
+        height: 30vh;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .text{
+        padding: 0;
+        
+    }
+}
+@media (max-width: 500px){
+    .container{
+        padding: 30px;
+    }
+  }

@@ -31,3 +31,27 @@
     line-height: 22px;
     padding-right: 130px;
 }
+@media (max-width:1300px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        height: 100%;
+    }
+    .heading{
+        padding-right: 0;
+    }
+    .text{
+        padding-right: 0;
+    }
+    .leftbox{
+        height:40vh;
+        width: 50vw;
+    }
+  }
+  @media (max-width: 500px){
+    .container{
+        padding: 30px;
+    }
+  }

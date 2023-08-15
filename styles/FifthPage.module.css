@@ -29,3 +29,16 @@
   line-height: 22px;
   padding-right: 70%;
 }
+@media (max-width: 800px) {
+  .container{
+    height: 100%;
+  }
+  .text{
+    padding: 0;
+  }
+}
+@media (max-width: 500px){
+  .container{
+      padding: 30px;
+  }
+}
