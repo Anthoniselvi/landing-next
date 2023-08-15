@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.innerbox}>
-        <p>GIPMER</p>
-        <h1>Unlock the Power of Your Excel Data</h1>
-        <p>Transform Your Business Insights</p>
-        <button>UPLOAD DATA</button>
+        <h3 className={styles.headcolor}>GIPMER</h3>
+        <h1 className={styles.heading}>UNLOCK THE POWER OF YOUR EXCEL DATA</h1>
+        <p className={styles.text}>Transform Your Business Insights</p>
+        <button className={styles.button}>UPLOAD DATA</button>
       </div>
     </div>
   );

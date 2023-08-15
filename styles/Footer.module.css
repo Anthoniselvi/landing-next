@@ -1,0 +1,20 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/image/10.png");
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:200px;
+}
+.innerbox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.text{
+    color: #fff;
+}

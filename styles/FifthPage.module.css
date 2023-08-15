@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #dfe9f4;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.innerbox{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
