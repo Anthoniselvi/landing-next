@@ -7,7 +7,7 @@ const FourthPage = () => {
       <h2 className={styles.heading}>WHAT CLIENTS SAY</h2>
       <div className={styles.innerbox}>
         <div className={styles.singlebox}>
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer1}>
             {/* <Image
               src="/image/6.png"
               alt="Client 1"
@@ -25,7 +25,7 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer2}>
             {/* <Image
               src="/image/7.png"
               alt="Client 2"
@@ -43,7 +43,7 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer3}>
             {/* <Image
               src="/image/8.png"
               alt="Client 3"
@@ -61,7 +61,7 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer4}>
             {/* <Image
               src="/image/9.png"
               alt="Client 4"

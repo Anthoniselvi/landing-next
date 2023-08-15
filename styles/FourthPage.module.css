@@ -45,7 +45,34 @@
     z-index: 1001;
  border: 1px solid red;
   }
-
+  .imageContainer1 {
+    width: 100%; 
+    height: 100%;
+  background-image: url("/image/6.png");
+  background-position: center;
+  background-size: cover;
+  }
+  .imageContainer2 {
+    width: 100%; 
+    height: 100%;
+  background-image: url("/image/7.png");
+  background-position: center;
+  background-size: cover;
+  }
+  .imageContainer3 {
+    width: 100%; 
+    height: 100%;
+  background-image: url("/image/8.png");
+  background-position: center;
+  background-size: cover;
+  }
+  .imageContainer4 {
+    width: 100%; 
+    height: 100%;
+  background-image: url("/image/9.png");
+  background-position: center;
+  background-size: cover;
+  }
 .text{
     line-height: 20px;
     color: black;
@@ -67,7 +94,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .imageContainer{
+    .imageContainer1, .imageContainer2, .imageContainer3, .imageContainer4{
         height: 30vh;
         width: 100%;
     }
