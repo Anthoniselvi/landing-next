@@ -2,13 +2,14 @@
     height: 100vh;
     width: 100vw;
     background-color: #121212;
-    padding: 100px;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
     gap:20px;
 }
 .heading{
     color: #fff;
+    padding-right: 80%;
 }
 .innerbox{
     width: 100%;
@@ -21,45 +22,81 @@
 .singlebox1{
     width: 100%;
     height: 100%;
-    background-image: url("/image/3.png");
+    display: flex;
+    flex-direction: column;
+}
+.topbox1{
+    background-image: url("/image/33.png");
     background-position: center;
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
 }
 .bottombox1{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 30%;
     background-color: #cf2025;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
 }
 .singlebox2{
     width: 100%;
     height: 100%;
-    background-image: url("/image/4.png");
+    display: flex;
+    flex-direction: column;
+}
+.topbox2{
+    background-image: url("/image/44.png");
     background-position: center;
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
 }
 .bottombox2{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 30%;
     background-color: #cf2025;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
 }
 .singlebox3{
     width: 100%;
     height: 100%;
-    background-image: url("/image/5.png");
+    display: flex;
+    flex-direction: column;
+}
+.topbox3{
+    background-image: url("/image/55.png");
     background-position: center;
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
 }
 .bottombox3{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 30%;
     background-color: #cf2025;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.toptext{
+    color: #fff;
+}
+.bottomtext{
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
 }
