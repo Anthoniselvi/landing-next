@@ -7,13 +7,12 @@ const FourthPage = () => {
       <h2 className={styles.heading}>WHAT CLIENTS SAY</h2>
       <div className={styles.innerbox}>
         <div className={styles.singlebox}>
-          <div className={styles.left1}>
+          <div className={styles.imageContainer}>
             {/* <Image
-              alt="pic"
-              style={{ width: "100%", height: "100%" }}
-              width={500}
-              height={500}
               src="/image/6.png"
+              alt="Client 1"
+              layout="fill"
+              objectFit="cover"
             /> */}
           </div>
           <div className={styles.right}>
@@ -26,7 +25,14 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.left2}></div>
+          <div className={styles.imageContainer}>
+            {/* <Image
+              src="/image/7.png"
+              alt="Client 2"
+              layout="fill"
+              objectFit="cover"
+            /> */}
+          </div>
           <div className={styles.right}>
             <h4>Nathaniel Gilmore</h4>
             <p className={styles.text}>
@@ -37,7 +43,14 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.left3}></div>
+          <div className={styles.imageContainer}>
+            {/* <Image
+              src="/image/8.png"
+              alt="Client 3"
+              layout="fill"
+              objectFit="cover"
+            /> */}
+          </div>
           <div className={styles.right}>
             <h4>Martina Lewinson</h4>
             <p className={styles.text}>
@@ -48,7 +61,14 @@ const FourthPage = () => {
         </div>
 
         <div className={styles.singlebox}>
-          <div className={styles.left4}></div>
+          <div className={styles.imageContainer}>
+            {/* <Image
+              src="/image/9.png"
+              alt="Client 4"
+              layout="fill"
+              objectFit="cover"
+            /> */}
+          </div>
           <div className={styles.right}>
             <h4>Chris Nguyen</h4>
 
