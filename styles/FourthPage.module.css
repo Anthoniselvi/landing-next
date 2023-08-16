@@ -111,3 +111,8 @@
         padding: 30px;
     }
   }
+  @media (max-width: 1000px){
+    .container{
+        padding: 30px;
+    }
+  }
