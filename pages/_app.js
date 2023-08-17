@@ -1,5 +1,13 @@
-import '@/styles/globals.css'
+import { OrdersProvider } from "@/ordersContext";
+import "@/styles/globals.css";
+OrdersProvider;
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <OrdersProvider>
+      <Component {...pageProps} />
+    </OrdersProvider>
+  );
 }
+
+export default App;
