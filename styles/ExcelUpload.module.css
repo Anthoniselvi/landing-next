@@ -5,3 +5,10 @@
     align-items: center;
     justify-content: center;
 }
+.icon{
+    width: 200px;
+    height: 200px;
+    background-image: url("/image/uploadicon.gif");
+    background-position: center;
+    background-size: cover;
+}

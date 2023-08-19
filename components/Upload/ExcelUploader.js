@@ -42,44 +42,52 @@ const ExcelUploader = ({ setOrdersData }) => {
   };
   return (
     <div className={styles.container}>
-      <h2 style={{ marginBottom: "20%", textAlign: "center" }}>
-        Upload file to Generate Reports
-      </h2>
-      <form
-        onSubmit={handleSubmit}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "20px",
-          alignItems: "left",
-          justifyContent: "left",
-        }}
-      >
-        <input
-          type="file"
-          accept=".xlsx"
-          onChange={handleFileUpload}
+      <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+        <h2 style={{ marginBottom: "20%", textAlign: "center" }}>
+          Upload file to Generate Reports
+        </h2>
+        <form
+          onSubmit={handleSubmit}
           style={{
-            padding: "5px 10px",
-            borderRadius: "5px",
-            width: "300px",
-            height: "50px",
-          }}
-        />
-        <button
-          type="submit"
-          style={{
-            padding: "5px 10px",
-            borderRadius: "5px",
-            width: "150px",
-            height: "40px",
-            backgroundColor: "#3480FA",
-            border: "none",
+            display: "flex",
+            flexDirection: "column",
+            gap: "20px",
+            alignItems: "left",
+            justifyContent: "left",
           }}
         >
-          Submit
-        </button>
-      </form>
+          <input
+            type="file"
+            accept=".xlsx"
+            onChange={handleFileUpload}
+            style={{
+              padding: "5px 10px",
+              borderRadius: "5px",
+              width: "300px",
+              height: "50px",
+            }}
+          />
+          {/* <div
+            className={styles.icon}
+            onClick={handleFileUpload}
+            type="file"
+            accept=".xlsx"
+          ></div> */}
+          <button
+            type="submit"
+            style={{
+              padding: "5px 10px",
+              borderRadius: "5px",
+              width: "150px",
+              height: "40px",
+              backgroundColor: "#3480FA",
+              border: "none",
+            }}
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
